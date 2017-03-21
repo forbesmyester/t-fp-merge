@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "preserveConstEnums": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "lib": ["dom", "es2015", "es2015.promise"],
+        "removeComments": false,
+        "inlineSourceMap": true,
+        "declaration": true,
+        "target": "es6",
+        "outDir": "dist",
+        "alwaysStrict": true,
+        "strictNullChecks": true
+    },
+    "include": [
+        "./fetch-extra.d.ts",
+        "src/**/*.ts",
+        "test/**/*.ts"
+    ]
+}

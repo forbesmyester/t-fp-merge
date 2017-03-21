@@ -1,0 +1,33 @@
+{
+  "name": "t-fp-merge",
+  "version": "0.1.0",
+  "description": "<A, B, C,  ...>(a: {[k: string]: A}, b: {[k: string]: B}, c: {[k: string]: C}, ...): {[k: string]: A|B|C|...}",
+  "typings": "./dist/src/utils.d.ts",
+  "private": false,
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "main": "./dist/src/utils.js",
+  "scripts": {
+    "test": "tsc && tslint src/**/*.ts test/**/*.ts && ava ./dist/test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/forbesmyester/t-fp-merge.git"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1"
+  },
+  "author": "Matthew Forrester <github.com@speechmarks.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forbesmyester/ts-fp-merge/issues"
+  },
+  "homepage": "https://github.com/forbesmyester/ts-fp-merge#readme",
+  "dependencies": {
+    "t-fp-assoc": "^0.1.0"
+  }
+}
