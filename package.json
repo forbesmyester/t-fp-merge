@@ -1,7 +1,7 @@
 {
   "name": "t-fp-merge",
-  "version": "0.1.0",
-  "description": "<A, B, C,  ...>(a: {[k: string]: A}, b: {[k: string]: B}, c: {[k: string]: C}, ...): {[k: string]: A|B|C|...}",
+  "version": "0.1.1",
+  "description": "merge<A, B, C,  ...>(a: {[k: string]: A}, b: {[k: string]: B}, c: {[k: string]: C}, ...): {[k: string]: A|B|C|...}",
   "typings": "./dist/src/utils.d.ts",
   "private": false,
   "directories": {
