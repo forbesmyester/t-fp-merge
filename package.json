@@ -19,14 +19,14 @@
   "devDependencies": {
     "ava": "^0.18.2",
     "tslint": "^4.5.1",
-    "typescript": "^2.2.1"
+    "typescript": "^2.3.3"
   },
   "author": "Matthew Forrester <github.com@speechmarks.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/forbesmyester/ts-fp-merge/issues"
+    "url": "https://github.com/forbesmyester/t-fp-merge/issues"
   },
-  "homepage": "https://github.com/forbesmyester/ts-fp-merge#readme",
+  "homepage": "https://github.com/forbesmyester/t-fp-merge#readme",
   "dependencies": {
     "t-fp-assoc": "^0.1.0"
   }
